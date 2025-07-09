@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
   <title>Akaai Live Radio</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      padding-top: 100px;
+    }
+    .player-box {
+      margin-top: 30px;
+    }
+    button {
+      background: #00b894;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #019875;
+    }
+  </style>
 </head>
-<body style="text-align:center; padding-top:100px; font-family:sans-serif;">
+<body>
   <h1>🎧 Akaai Live Radio</h1>
-  <p>Streaming great music and stories with friends</p>
+  <p>Chill music, deep stories, and late-night vibes.</p>
 
-  <!-- Embedded radio player -->
-  <script src="//myradiostream.com/embed/AkaaiLive"></script>
+  <div class="player-box">
+    <!-- Embedded MyRadioStream player -->
+    <script src="//myradiostream.com/embed/AkaaiLive"></script>
+  </div>
 
-  <p style="margin-top: 20px;">Enjoy the stream & share with your friends! 🔥</p>
+  <p style="margin-top: 50px;">🔗 Share this page with your friends to listen live!</p>
 </body>
 </html>
